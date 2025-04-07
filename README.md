@@ -5,8 +5,8 @@
 The Movie Recommender System is a web app that suggests **5 similar movies** based on a user’s selected favorite film. It's designed to skip the endless scrolling and decision fatigue by using content-based filtering with intuitive visuals.
 
 ---
-## Dataset
-For this recommender system I have used TMDB 5000 Movie Dataset. Before proceeding first download dataset from below URL:
+## 🗂️ Dataset
+For this recommender system, I have used the TMDB 5000 Movie Dataset. Before proceeding, first download the dataset from the URL below:
 
 URL: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
