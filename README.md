@@ -8,7 +8,7 @@ The Movie Recommender System is a web app that suggests **5 similar movies** bas
 
 ## 🧠 System Architecture  
 
-![System Architecture](System-Architecture.png)
+![System Architecture](Asset/System-Architecture.png)
 
 ### 📌 Components:
 #### 1. **Frontend (Streamlit)**  
@@ -29,7 +29,7 @@ The Movie Recommender System is a web app that suggests **5 similar movies** bas
 
 ## 🔁 User Interaction Flow  
 
-![User Interaction Flow](MR-User-Interation-Flow.png)
+![User Interaction Flow](Asset/MR-User-Interation-Flow.png)
 
 1. The user selects a movie via a dropdown.  
 2. Frontend sends the movie title to the backend.  
@@ -43,16 +43,15 @@ The Movie Recommender System is a web app that suggests **5 similar movies** bas
 ## 🖥️ Live Demo Screenshots  
 
 **🔽 Selection Interface**  
-![Start](MRS-Start.png)
+![Start](Asset/MRS-Start.png)
 
 **🎥 Recommendations**  
-![Recommendations](MRS-Recommendation.png)
+![Recommendations](Asset/MRS-Recommendation.png)
 
 ---
 
-## 🎬 Video Demo  
-
-[▶️ Watch Video Demo](Movie-Recommender-System.mov)
+## 🎬 User Demo  
+![Alt text](Asset/MRS-Demo.gif)
 
 ---
 ## 🛠 Tech Stack  
