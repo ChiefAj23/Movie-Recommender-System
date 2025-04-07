@@ -51,6 +51,7 @@ The Movie Recommender System is a web app that suggests **5 similar movies** bas
 ---
 
 ## 🎬 Video Demo  
+![Alt text](Asset/MRS-Demo.gif)
 
 [▶️ Watch Video Demo](Movie-Recommender-System.mov)
 
