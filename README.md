@@ -85,6 +85,13 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+Add your TMDB API key (create one in your [TMDB API settings](https://www.themoviedb.org/settings/api))
+```bash
+cp .env.example .env
+# then open .env and replace the placeholder with your key
+```
+The app reads the key from the `TMDB_API_KEY` environment variable, so instead of using `.env` you can `export TMDB_API_KEY=<your key>` in your shell, or set it in your host's secrets settings when deploying. `.env` is listed in `.gitignore`, so your key stays out of the repo.
+
 Run the app
 ```bash
 streamlit run app.py
