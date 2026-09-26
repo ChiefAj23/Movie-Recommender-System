@@ -1,0 +1,2 @@
+# Local environment variables (holds your TMDB API key)
+.env

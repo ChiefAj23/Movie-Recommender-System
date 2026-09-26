@@ -2,10 +2,22 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+if not TMDB_API_KEY:
+    st.error(
+        "`TMDB_API_KEY` is not set. Copy `.env.example` to `.env` and add your TMDB API key "
+        "(get one at https://www.themoviedb.org/settings/api), or export `TMDB_API_KEY` in your "
+        "shell, then restart the app."
+    )
+    st.stop()
 
 def fetch_poster(movie_id):
     response = requests.get(
-        f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=ee18e826b20a63ab54fdf254ec1f0bf9&language=en-US'
+        f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={TMDB_API_KEY}&language=en-US'
     )
     if response.status_code == 200:
         data = response.json()
